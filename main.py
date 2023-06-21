@@ -1,7 +1,7 @@
 import argparse
-from utils.scrapers.scraping_lib import ProcessLibrary
+from utils.scrapers.scrapnews_lib import ProcessLibrary
 
-print("Hola, bienvenidos para ")
+print("Hola, bienvenidos a la base de palabras de")
 parser = argparse.ArgumentParser(description='Args to start the data collection process')
 parser.add_argument('--process', type=str, help='Process to run', required=True,
                     choices=['CodigoCPP', 'JurisprudenciaTC', 'JurisprudenciaPJ','JurisprudenciaCIDH'])
