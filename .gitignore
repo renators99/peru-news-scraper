@@ -1,1 +1,5 @@
-*.ipynb
+# All cache items
+*__pycache__/
+
+# All archives
+*.json
