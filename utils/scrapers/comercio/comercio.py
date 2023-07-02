@@ -40,7 +40,7 @@ class Comercio():
         Executes all steps of the ETL process 
         (extract, transform, load) in sequence.
         """
-        pass
+        get_sections()
         
     def run(self):
         """
