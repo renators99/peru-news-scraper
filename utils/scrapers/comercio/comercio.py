@@ -1,5 +1,4 @@
-
-
+from utils.scrapers.comercio.utils.sitemap import get_sections
 class Comercio():
     """
     This class is designed to handle the ETL 
@@ -19,7 +18,7 @@ class Comercio():
         Executes the extraction step of the ETL process, 
         extracting files from SPIJ.
         """
-        pass
+        get_sections()
     
     def transform(self):
         """
